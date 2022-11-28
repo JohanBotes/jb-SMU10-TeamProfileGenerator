@@ -1,0 +1,31 @@
+{
+    "name": "jbSMU10TeamProfileGenerator",
+    "version": "1.0.0",
+    "description": "HTML Team Profile Generator",
+    "main": "app.js",
+    "directories": {
+        "lib": "lib",
+        "test": "test"
+    },
+    "scripts": {
+        "test": "jest --vebose test/*"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/JohanBotes/jb-SMU10-TeamProfileGenerator"
+    },
+    "homepage": "",
+    "dependencies": {
+        "inquirer": "^6.3.1",
+        "yargs": "^15.4.0"
+    },
+    "devDependencies": {
+        "jest": "^29.2.2",
+        "node-notifier": ">=8.0.1"
+    }
+}
